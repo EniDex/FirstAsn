@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;*/
+}
+body{
+	font-family: sans-serif cursive;
+	height: 100vh;
+	/*display: grid;*/
+	justify-content: center;
+	align-items: center;
+	color: grey;
+	font-size: 0.9rem;
+	background: #ffff;
+	font-weight: 10rem;
+    margin: 5rem;
+}
+ table{
+ 	border-collapse: collapse;
+ 	box-shadow: 0 5px 10px grey;
+ }
+ thead{
+ 	box-shadow: 0 5px 10px grey;
+ }
+ th{
+ 	padding: 1rem 2rem;
+ 	text-transform: uppercase;
+ 	letter-spacing: 0.1rem;
+ 	font-size: 0.7rem;
+ 	font-weight: 90rem;
+ }
+ td{
+ 	padding: 1rem 2rem;
+ }
+ a{
+ 	text-decoration: none;
+ 	color: lightcoral;
+ }
+ .status{
+ 	border-radius: radius;
+ 	background: blue;
+ 	padding: 0.2rem 1rem;
+ 	text-align: center;
+ }
+ .pending{
+ 	background-color: green;
+ 	color: grey;
+ }
+ .paid{
+ 	background-color: grey;
+ 	color: white;
+ }
+ .unpaid{
+ 	background-color: White;
+ 	color: red;
+ }
+ .amount{
+ 	text-align: right;
+ }
+ 
+
+ .block{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+ }
+ .block1{
+    background-color: red;
+ }
+ .block2{
+    background-color: green;
+
+ }
+ .bloc k3{
+    background-color: yellow;
+ }
+ a{
+    margin: 1rem;
+    padding: 1rem;
+ }
+
+
+ .blocks{
+    display: inline-block;
+    height: 5rem;
+    width: 10rem;
+
+ }
+ .container{
+    background-color:grey ;
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: column-reverse;*/
+ }
+ .blockx{
+    height: 5rem;
+    width: 10rem;
+
+ }
